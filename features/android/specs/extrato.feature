@@ -4,7 +4,7 @@ Funcionalidade: Extrato
    
   @android @extrato @ton @saldo
   Cenário: Validar exibição dos saldos disponível e a receber no extrato
-    Dado que autentico com um email "wfix_pereira@hotmail.com" e senha "sarah12345"
+    Dado que autentico com um email "#####" e senha "#####"
     Quando seleciono o extrato
     E visualizo saldo disponível
     Então visualizo saldo a receber
