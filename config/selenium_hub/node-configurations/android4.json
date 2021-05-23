@@ -1,0 +1,32 @@
+{
+  "default-capabilities":
+  {
+    "udid":"420042150155a507"
+  },
+  "capabilities":
+  [
+    {
+      "browserName": "Android4",
+      "udid": "ZX1D52KDXT",
+      "maxInstances": 1,
+      "platform":"ANDROID",
+      "deviceName":"Moto G 2 gen",
+      "deviceReadyTimeout":90,
+      "systemPort": 4507,
+      "automationName": "UiAutomator2",
+      "seleniumProtocol": "WebDriver"
+    }
+  ],
+  "configuration": {
+    "cleanUpCycle": 2000,
+    "timeout": 3000,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "maxSession": 1,
+    "register": true,
+    "port": 4506,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": "127.0.0.1",
+    "hubProtocol": "http"
+  }
+}

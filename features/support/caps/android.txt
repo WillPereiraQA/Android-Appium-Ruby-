@@ -1,0 +1,13 @@
+[caps]
+deviceName = "Android"
+platformName = "Android"
+app = './config/app/stone.apk'
+newCommandTimeout = 999999
+language = "pt"
+locale = "BR"
+autoGrantPermissions = true
+noReset = false
+automationName = 'UiAutomator2'
+adbExecTimeout = 999999
+useNewWDA = true
+implicit = 1

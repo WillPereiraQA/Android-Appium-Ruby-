@@ -1,0 +1,32 @@
+{
+  "default-capabilities":
+  {
+    "udid": "420042150155a507"
+  },
+  "capabilities":
+  [
+    {
+      "deviceName":"Galaxy J5 Prime 2",
+      "maxInstances": 1,
+      "platform":"ANDROID",
+      "deviceReadyTimeout":90,
+      "browserName": "Android",
+      "systemPort": 4501,
+      "automationName": "UiAutomator2",
+      "seleniumProtocol": "WebDriver"
+    }
+  ],
+  "configuration":
+  {
+    "cleanUpCycle":2000,
+    "timeout":3000,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "maxSession": 1,
+    "register": true,
+    "port": 4500,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": "127.0.0.1",
+    "hubProtocol": "http"
+  }
+}

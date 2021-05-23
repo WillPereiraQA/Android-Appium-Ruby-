@@ -1,0 +1,2 @@
+features/android/specs/extrato.feature:6
+features/android/specs/extrato.feature:13

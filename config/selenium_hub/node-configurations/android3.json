@@ -1,0 +1,31 @@
+{
+  "default-capabilities":
+  {
+    "udid": "5200c02b005cb5f1"
+  },
+  "capabilities":
+  [
+    {
+      "browserName": "Android3",
+      "maxInstances": 1,
+      "platform":"ANDROID",
+      "deviceName":"Galaxy J7 Prime2",
+      "deviceReadyTimeout":90,
+      "systemPort": 4505,
+      "automationName": "UiAutomator2",
+      "seleniumProtocol": "WebDriver"
+    }
+  ],
+  "configuration": {
+    "cleanUpCycle": 2000,
+    "timeout": 3000,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "maxSession": 1,
+    "register": true,
+    "port": 4504,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": "127.0.0.1",
+    "hubProtocol": "http"
+  }
+}
