@@ -1,8 +1,6 @@
 Dado ('que autentico com um email {string} e senha {string}') do |email, senha|
   logon = ExtratoScreen.new
-  sleep 10
   logon.touch_btn_entrar_home
-  sleep 5
   logon.enter_campo_email email
   logon.enter_campo_senha senha
   logon.touch_search_keyboard
@@ -11,13 +9,11 @@ end
 
 Quando('seleciono o extrato') do
   extrato = ExtratoScreen.new
-  sleep 10
   extrato.touch_btn_extrato
 end
 
 E('visualizo saldo disponível') do
   saldo = ExtratoScreen.new
-  sleep 10
   saldo.touch_aba_saldo_disponivel
   saldo.valor_saldo_disponivel_displayed?
 end
@@ -30,7 +26,6 @@ end
 
 Quando('seleciono Filtrar') do
   filtro = ExtratoScreen.new
-  sleep 10
   filtro.touch_btn_filtrar
 end
 

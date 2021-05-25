@@ -11,7 +11,7 @@ Funcionalidade: Extrato
 
   @android @extrato @ton @filtros
   Cenário: Validar exibição de todos os filtros por tipo e período
-    Dado que autentico com um email "wfix_pereira@hotmail.com" e senha "sarah12345"
+    Dado que autentico com um email "#####" e senha "#####"
     Quando seleciono o extrato
     E seleciono Filtrar
     Então visualizo a exibição de todos os filtros por tipo e período
